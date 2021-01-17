@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  background-color: #214151;
+  padding: 10px;
+  height: 60px;
+}
+
+.header__title {
+  font-size: larger;
+  display: flex;
+  margin-bottom: 7px;
+  margin-left: 50px;
+}
+
+.header__titleButton {
+  color: white;
+  height: 10px;
+  position: sticky;
+  left: 20px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
